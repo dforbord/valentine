@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113.3">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    span.s1 {font: 12.0px 'Apple Color Emoji'}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1">&lt;title&gt;A Question For You <span class="s1">❤️</span>&lt;/title&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1">body {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-family: 'Arial', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: linear-gradient(135deg, #ffdde1, #ee9ca7);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>overflow-x: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: white;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.container {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 40px 20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">h1 {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 2.5em;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom: 10px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">h2 {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-weight: normal;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom: 30px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.gallery {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">    </span>gap: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 20px auto;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>max-width: 800px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.gallery img {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>box-shadow: 0 5px 15px rgba(0,0,0,0.3);</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.buttons {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-top: 40px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">button {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 15px 30px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 18px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>transition: 0.3s;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">#yesBtn {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #ff4b5c;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: white;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">#noBtn {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: white;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #ff4b5c;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>position: relative;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">button:hover {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>transform: scale(1.1);</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.heart {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>position: fixed;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: pink;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>animation: floatUp 5s linear infinite;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">@keyframes floatUp {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>0% { transform: translateY(100vh); opacity: 1; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>100% { transform: translateY(-10vh); opacity: 0; }</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">#finalMessage {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 2em;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-top: 40px;</p>
+<p class="p1">}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Hi Beautiful <span class="s1">❤️</span>&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Every memory with you is my favorite one.&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="gallery"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="photo1.jpg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="photo2.jpg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="photo3.jpg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="photo4.jpg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="photo5.jpg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="photo6.jpg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Will you be my Valentine?&lt;/h1&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="buttons"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button id="yesBtn"&gt;Yes <span class="s1">❤️</span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button id="noBtn"&gt;No&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="finalMessage"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>I can't wait to spend forever making memories with you. <span class="s1">❤️</span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1">const noBtn = document.getElementById("noBtn");</p>
+<p class="p1">const yesBtn = document.getElementById("yesBtn");</p>
+<p class="p1">const finalMessage = document.getElementById("finalMessage");</p>
+<p class="p2"><br></p>
+<p class="p1">noBtn.addEventListener("mouseover", () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const x = Math.random() * (window.innerWidth - 100);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const y = Math.random() * (window.innerHeight - 50);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>noBtn.style.position = "absolute";</p>
+<p class="p1"><span class="Apple-converted-space">    </span>noBtn.style.left = x + "px";</p>
+<p class="p1"><span class="Apple-converted-space">    </span>noBtn.style.top = y + "px";</p>
+<p class="p1">});</p>
+<p class="p2"><br></p>
+<p class="p1">yesBtn.addEventListener("click", () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>finalMessage.style.display = "block";</p>
+<p class="p1"><span class="Apple-converted-space">    </span>createHearts();</p>
+<p class="p1">});</p>
+<p class="p2"><br></p>
+<p class="p1">function createHearts() {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>setInterval(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const heart = document.createElement("div");</p>
+<p class="p1"><span class="Apple-converted-space">        </span>heart.innerHTML = "<span class="s1">❤️</span>";</p>
+<p class="p1"><span class="Apple-converted-space">        </span>heart.classList.add("heart");</p>
+<p class="p1"><span class="Apple-converted-space">        </span>heart.style.left = Math.random() * 100 + "vw";</p>
+<p class="p1"><span class="Apple-converted-space">        </span>heart.style.fontSize = Math.random() * 20 + 20 + "px";</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.body.appendChild(heart);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>setTimeout(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>heart.remove();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}, 5000);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}, 300);</p>
+<p class="p1">}</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
